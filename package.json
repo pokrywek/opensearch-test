@@ -6,7 +6,9 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "nodemon --exec ts-node --ext js,ts,json src/index.ts"
+    "start": "node --exec ts-node --ext js,ts,json src/index.ts",
+    "start:dev": "nodemon --exec ts-node --ext js,ts,json src/index.ts",
+
   },
   "dependencies": {
     "chalk": "^4.0.0",

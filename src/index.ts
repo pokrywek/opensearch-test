@@ -1,7 +1,7 @@
-import express from 'express';
-import * as config from '../config.json';
-import { logger } from './logger';
-import { descriptionHandler, searchHandler } from './handlers';
+// import express from 'express';
+// import * as config from '../config.json';
+// import { logger } from './logger';
+// import { descriptionHandler, searchHandler } from './handlers';
 
 // const app = express();
 // const port = config.port;

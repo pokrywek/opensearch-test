@@ -4,7 +4,8 @@ import { logger } from './logger';
 import { descriptionHandler, searchHandler } from './handlers';
 
 const app = express();
-const port = config.port;
+// const port = config.port;
+const port = process.env.PORT;
 
 app.use(logger());
 app.get("/description", descriptionHandler(config.baseUrl));

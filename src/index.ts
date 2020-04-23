@@ -12,7 +12,7 @@ app.get("/search", searchHandler(config.baseUrl));
 app.all('*', (_, res) => {
   res
     .status(404)
-    .send("Not found");
+    .send("Not founds");
 });
 
 app.listen(port, () => {
